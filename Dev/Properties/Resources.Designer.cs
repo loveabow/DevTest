@@ -8,9 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DevTest.Properties
+namespace Dev.Properties
 {
-    using System;
 
 
     /// <summary>
@@ -43,9 +42,9 @@ namespace DevTest.Properties
         {
             get
             {
-                if (object.ReferenceEquals(resourceMan, null))
+                if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DevTest.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Dev.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

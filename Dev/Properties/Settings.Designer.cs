@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace DevTest.Properties
+namespace Dev.Properties
 {
 
 

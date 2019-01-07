@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
+using DevExpress.UserSkins;
+using DevExpress.Skins;
 using DevExpress.LookAndFeel;
 
-namespace DevTest
+namespace Dev
 {
     static class Program
     {
@@ -16,7 +18,9 @@ namespace DevTest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+
+            BonusSkins.Register();
+            Application.Run(new Form1());
         }
     }
 }
